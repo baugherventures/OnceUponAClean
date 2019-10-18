@@ -2,17 +2,17 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
     autoplay:true,
-    autoplayTimeout:3000,
+    autoplayTimeout:7000,
     nav:true,
     navText:['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
      responsive:{
         0:{
             items:1
         },
-        600:{
+        800:{
             items:1
         },
-        1000:{
+        1200:{
             items:1
         }
     }
