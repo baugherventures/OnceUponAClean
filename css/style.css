@@ -131,9 +131,9 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .btn-primary { background-color: #FFD7E9; color: #fff; }
 .btn-primary:hover { background-color: #EC8BB6; color: #fff; }
 .btn-primary.focus, .btn-primary:focus { background-color: #EC8BB6; color: #fff; }
-.btn-default { background-color: #32c083; color: #fff; }
-.btn-default:hover { background-color: #1c9e66; color: #fff; }
-.btn-default.focus, .btn-default:focus { background-color: #1c9e66; color: #fff; }
+.btn-default { background-color: #c032a1; color: #fff; }
+.btn-default:hover { background-color: #9a1c9e; color: #fff; }
+.btn-default.focus, .btn-default:focus { background-color: #9a1c9e; color: #fff; }
 .btn-lg { padding: 15px 34px; font-size: 14px; }
 .btn-sm { padding: 12px 22px; font-size: 12px; }
 .btn-xs { padding: 10px 24px; font-size: 11px; }
@@ -233,7 +233,7 @@ button.btn { margin-right: -1px; }
 .content { padding-top: 100px; padding-bottom: 100px; }
 .bg-light { background-color: #f4f7f6; }
 .bg-primary { background-color: #FFD7E9; color: #fff; }
-.bg-default { background-color: #21ac70; color: #fff; }
+.bg-default { background-color: #de8ee0; color: #fff; }
 .bg-white { background-color: #fff; }
 .outline { }
 .section-title { margin-bottom: 30px; text-align: center; }
@@ -263,12 +263,12 @@ button.btn { margin-right: -1px; }
 4.6 Bullet/arrow
 ----------------------------------*/
 .angle { position: relative; }
-.angle-right li:before { font-family: FontAwesome; display: block; position: absolute; left: 0; font-size: 14px; color: #21ac70; content: "\f101"; }
+.angle-right li:before { font-family: FontAwesome; display: block; position: absolute; left: 0; font-size: 14px; color: #de8ee0; content: "\f101"; }
 
 /*--------------------------------
 4.7 Call to actions 
 ----------------------------------*/
-.cta-section { background-color: #21ac70; padding-top: 30px; padding-bottom: 10px; text-align: center; color: #fff; font-size: 32px; }
+.cta-section { background-color: #de8ee0; padding-top: 30px; padding-bottom: 10px; text-align: center; color: #fff; font-size: 32px; }
 .cta-section h1 { color: #fff; font-size: 28px; }
 .cta-block { }
 .cta-text { }
@@ -320,7 +320,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .logo { padding-top: 5px; }
 .top-bar { background-color: #f8f8f8; border-bottom: #ededed 1px solid; padding-top: 0px; padding-bottom: 0px; }
 .call-info { margin-top: 5px; }
-.call-text { font-size: 14px; color: #21ac70; }
+.call-text { font-size: 14px; color: #de8ee0; }
 .call-text strong { margin-left: 10px; color: #302e2d; font-weight: 400; }
 .social { }
 .social ul { }
@@ -421,31 +421,31 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .page-text { color: #fff; font-weight: 500; }
 
 /*-----------------------------------
-    6. Slider 
+    6. Slider
 -------------------------------------*/
 .slider { margin-bottom: -40px; }
 .slider-img { background: -moz-linear-gradient(top, rgba(13, 15, 13, 0.2) 0%, rgba(13, 15, 13, 0.2) 100%); background: -webkit-linear-gradient(top, rgba(13, 15, 13, 0.2) 0%, rgba(13, 15, 13, 0.2) 100%); background: linear-gradient(to bottom, rgba(13, 15, 13, 0.2) 0%, rgba(13, 15, 13, 0.2) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc1b2429', endColorstr='#cc1b2429', GradientType=0); position: relative; width: 100% }
 .slider-img img { position: relative; z-index: -1; }
-.slider-captions { position: absolute; bottom: 140px; width: 100%; color: #fff; }
+.slider-captions { position: absolute; bottom: 200px; width: 100%; color: #fff; }
 .slider-title { color: #fff; font-size: 42px; font-weight: 500; line-height: 52px; }
 .slider-text { color: #fff; }
 .slider .owl-dots { text-align: center !important; position: relative; bottom: 50px; }
 .slider .owl-nav { line-height: 1.8; text-align: center; -webkit-tap-highlight-color: transparent; }
-.slider .owl-nav .owl-prev { position: absolute; top: 43%; left: 0px; color: #21ac70; font-size: 18px; margin: 8px; padding: 0px; background: #ffffff; display: inline-block; cursor: pointer; border-radius: 50px; height: 35px; width: 35px; border: 2px solid #ffffff; }
-.slider .owl-nav .owl-next { position: absolute; top: 43%; right: 0px; color: #21ac70; font-size: 18px; margin: 8px; padding: 0px; background: #ffffff; display: inline-block; cursor: pointer; border-radius: 50px; height: 35px; width: 35px; border: 2px solid #ffffff; }
-.slider .owl-nav .owl-prev:hover { background-color: #21ac70; border: 2px solid #21ac70; text-decoration: none; color: #fff; }
-.slider .owl-nav .owl-next:hover { background-color: #21ac70; border: 2px solid #21ac70; text-decoration: none; color: #fff; }
+.slider .owl-nav .owl-prev { position: absolute; top: 43%; left: 0px; color: #de8ee0; font-size: 18px; margin: 8px; padding: 0px; background: #ffffff; display: inline-block; cursor: pointer; border-radius: 50px; height: 35px; width: 35px; border: 2px solid #ffffff; }
+.slider .owl-nav .owl-next { position: absolute; top: 43%; right: 0px; color: #de8ee0; font-size: 18px; margin: 8px; padding: 0px; background: #ffffff; display: inline-block; cursor: pointer; border-radius: 50px; height: 35px; width: 35px; border: 2px solid #ffffff; }
+.slider .owl-nav .owl-prev:hover { background-color: #de8ee0; border: 2px solid #de8ee0; text-decoration: none; color: #fff; }
+.slider .owl-nav .owl-next:hover { background-color: #de8ee0; border: 2px solid #de8ee0; text-decoration: none; color: #fff; }
 .slider .owl-dots .owl-dot { display: inline-block; zoom: 1; }
-.slider .owl-dots .owl-dot span { width: 11px; height: 11px; margin: 5px 4px; background: #fff; border-radius: 5px; border: 2px solid #fff; display: block; -webkit-backface-visibility: visible; transition: opacity 200ms ease; }
-.slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #21ac70; border: 2px solid #21ac70; }
+.slider .owl-dots .owl-dot span { width: 11px; height: 11px; margin: 5px 4px; background: #fff; border-radius: 5px; border: 2px solid #fff; display: block;-webkit-backface-visibility: visible; transition: opacity 200ms ease; }
+.slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #de8ee0; border: 2px solid #de8ee0; }
 .slider .owl-carousel .owl-item img { width: 100%; }
-
+/* max-height: 700px;  */
 /*-----------------------------------
 7. before after gallery
 -------------------------------------*/
 
 /*-----------------------------------
-8. Footer 
+8. Footer
 -------------------------------------*/
 
 .footer { background-color: #242323; padding-top: 80px; padding-bottom: 30px; color: #908e8d; font-weight: 400; }
@@ -552,7 +552,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*----- meta -----*/
 .meta { margin-bottom: 20px; text-align: left; padding-right: 3px; font-weight: 500; line-height: 1; text-transform: uppercase; letter-spacing: 1px; font-size: 12px; }
 .meta-icon { }
-.meta-date { color: #fff; position: absolute; background-color: #21ac70; border-radius: 5px; padding: 8px 12px 8px 12px; top: 0px; font-weight: 500; margin: 10px 10px; }
+.meta-date { color: #fff; position: absolute; background-color: #de8ee0; border-radius: 5px; padding: 8px 12px 8px 12px; top: 0px; font-weight: 500; margin: 10px 10px; }
 .meta-date span { letter-spacing: 1px; display: flex; }
 .meta-date-text { margin-top: -12px; margin-bottom: -8px; font-size: 12px; }
 .meta-date-number { font-size: 26px; }
@@ -651,7 +651,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 
 /*-------------styleguide-------------*/
 .box-info { font-size: 16px; line-height: 1.6; }
-.circle-default-color { background-color: #21ac70; height: 162px; width: 162px; border-radius: 50%; border: 5px solid #65e5ae; }
+.circle-default-color { background-color: #de8ee0; height: 162px; width: 162px; border-radius: 50%; border: 5px solid #65e5ae; }
 .circle-primary-color { background-color: #FFD7E9; height: 162px; width: 162px; border-radius: 50%; border: 5px solid #ffcab5; }
 .circle-heading-color { background-color: #272625; height: 162px; width: 162px; border-radius: 50%; border: 5px solid #92908e; }
 .circle-secondary-color { background-color: #676462; height: 162px; width: 162px; border-radius: 50%; border: 5px solid #b6b3b2; }
